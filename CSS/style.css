@@ -1,0 +1,154 @@
+@import url('./mobile.css');
+@import './tablet.css' screen and (min-width:460px);
+@import './desktop.css' screen and (min-width: 760px);
+
+*   {
+        box-sizing: border-box;
+    }
+body
+    {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular';
+        display:flex;
+        flex-direction: column;
+        height: 100%;
+    }    
+header,
+footer
+    {
+        display: flex;
+        align-items: center;
+    }
+footer
+    {
+        background-color: black;
+        color:white
+    }    
+footer div
+    {
+        flex-grow: 3;
+    }           
+header img,
+footer img
+    {
+        height: 2rem; width: 2rem;
+    }
+header p,
+footer p
+    {
+        padding-left: 0.5rem;
+    }
+nav
+    { 
+        padding: 1rem 0; 
+        width: 100%;     
+        background-size: cover;
+    }
+nav main div:first-child
+    {
+        font-size: 1.3rem;
+    }
+nav main div 
+    {
+        padding: 0 0.5rem;
+        margin-left: 0.5rem; margin-bottom: 0.2rem;
+        width:fit-content;
+        color: white;
+        background-color: black;
+        font-size: 0.9rem;
+    }   
+nav form
+    {
+        margin: 0.5rem;
+        background-color: white; 
+        padding: 1rem;      
+    } 
+nav form p
+    {
+        margin: 0.5rem;
+        font-size: 0.9rem;
+    }
+nav form p:nth-child(1)
+    {
+        font-family: 'Lucida Sans';
+        font-size: 1.1rem;
+    }
+nav form input
+    {
+        margin: 0.2rem 0.5rem ;
+        font-size: 0.7rem;         
+        height: 1.6rem;
+        width: 95.5%;
+    }      
+nav form input[type="submit"]
+    {
+        background-color: green;
+        color: white;
+        border:0;
+        margin-bottom: 1em;
+    }
+figure 
+    {
+        margin: 0.5rem;
+    }
+figure summary div img
+    {
+        border-radius: 50%;
+        width: 6rem;
+        height: 6rem;
+    }
+figure div,
+section
+    {
+        font-size: 1.3rem;
+        margin: 0.4rem 0;
+        padding: 0.4rem 0;
+    }    
+figure summary div 
+    {
+        padding: 0.4rem 0;
+        display: flex;
+        justify-content: space-between;
+    }
+figure summary div aside 
+    {
+        display: flex;
+        flex-direction: column;
+    }
+figure summary div aside p,
+section p
+    {
+        margin: 0.5rem;
+        font-size: 0.9rem;
+    }    
+figure summary div aside :nth-child(1) 
+    {
+        font-size: 1.1rem;
+        margin-bottom: 0.5rem;
+    } 
+article
+    {
+        background-color: rgb(240, 230, 225);
+        text-align: center;
+        padding:  1rem;        
+        font-size: 0.9rem;
+    }  
+article h2
+    {
+        font-size: 1.3rem;
+        font-weight: lighter;
+    }
+section
+    {
+        height: 20%;
+    }
+section div
+    {
+        margin: 2rem 0 1rem;
+    }
+section div img  
+    {
+        border-radius: 50%;
+        width: 7rem;
+        height: 5rem;
+    }    
+                    

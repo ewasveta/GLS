@@ -1,0 +1,38 @@
+nav
+    {
+        background-image: url("../Images/drops8.jpg");
+        display: flex;
+        flex-direction: column;
+    }    
+figure summary div
+    {
+        flex-direction: row;
+        align-items: center;
+    } 
+       
+section div img
+    {
+        vertical-align: middle;
+    }
+section div div
+    {
+        display: inline-block;
+        margin: 1rem 0.5rem;
+        font-size: 1.1rem;
+    } 
+section div p
+    {
+        margin: 1rem 0.5rem;
+    }    
+section div div:nth-child(4)
+    {
+        display: none;
+    } 
+ #hl
+    {
+        border-top: 4px solid lightgrey;
+        margin: 0 0.5rem;
+        width: 98%;
+    }
+#vl
+    {   display: none;  }         

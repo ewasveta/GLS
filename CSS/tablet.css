@@ -1,0 +1,57 @@
+nav 
+{
+    background-image: url("../Images/drops7.jpg");
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+figure
+{    
+    text-align: center;
+}
+figure summary
+{
+    display: flex;
+    flex-direction:row;
+}
+figure summary div
+{
+    flex-direction: column;
+    align-items: center;
+}
+figure summary div aside 
+{
+    flex-grow: 1;
+}
+figure summary div aside p
+{
+    padding-top: 0.5rem;
+}
+section
+{
+    display: flex;
+}
+section div
+{
+    text-align: center;
+}
+section div div:nth-child(2)
+{
+    display: none;
+} 
+section div div:nth-child(4)
+{
+    display: block;
+}
+#hl
+{   display: none;  } 
+#vl
+{
+    display: block;
+    border-left: 4px solid lightgrey;
+    margin: 1rem;
+    position: relative;
+    top:10%; left: -0.5%;
+}
+
